@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My first Weather App</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+      <div class="container">
+        <header class="header">
+        <div class="search">
+          <input type="text" placeholder="Enter City Name" id="search-txt">
+          <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+       </div>
+       </header>
+
+      <main id="main">
+    
+       <div class="city-icon">
+          <div class="city-icon-holder">
+          <div id="city-name"></div>
+          <img src="" alt="" id="icon">
+        </div>
+       </div>
+    
+      <div class="temperature">
+          <h6>Temperature in Celsius</h6>
+          <div id="temp"></div>
+      </div>
+    
+       <div class="humidity">
+       <h6>Humidity</h6>
+      <div id="humidity-div"></div>
+     </div>
+    
+     </main>
+  
+     </div>
+      
+      <script src="script.js"></script>
+     
+    </body>
+</html>
